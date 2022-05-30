@@ -1,0 +1,207 @@
+/*Abdlakarim AlAjrami*/
+@font-face {
+  font-family: itlaic;
+  src: url(../fonts/Rubik-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: regular;
+  src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+.container {
+  padding: 30px 10% 0px 10%;
+}
+.top-page {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  color: #242a45;
+}
+.text-logo {
+  margin-left: 5px;
+}
+.pages {
+  word-spacing: 20px;
+  font-size: 13px;
+  font-family: regular;
+}
+.page {
+  text-decoration: none;
+  color: #242a45;
+}
+.page:hover {
+  color: #fa5959;
+}
+.log-in {
+  background-color: #fa5959;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+.log-in:hover {
+  background-color: #fff;
+  color: #fa5959;
+  cursor: pointer;
+}
+/*Middle top style*/
+.middle-top {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.middle-top .info {
+  margin-top: 5%;
+}
+.middle-top .heading {
+  font-size: 48px;
+  font-family: regular;
+  margin-bottom: 20px;
+}
+.middle-top .details {
+  font-size: 18px;
+  font-family: regular;
+  color: #9194a2;
+  line-height: 1.5;
+}
+.middle-top .btn {
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-top: 30px;
+  font-family: regular;
+}
+.getChrome {
+  background-color: #5267df;
+  color: #fff;
+  margin-right: 10px;
+}
+.getChrome:hover {
+  background-color: #f7f7f7;
+  color: rgba(36, 48, 69, 100%);
+  cursor: pointer;
+}
+.getFirefox {
+  background-color: #f7f7f7;
+  color: rgba(36, 48, 69, 100%);
+}
+.getFirefox:hover {
+  background-color: #fa5959;
+  cursor: pointer;
+  color: #fff;
+}
+/*Middle bottom style*/
+.middle-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.middle-bottom .info {
+  margin-top: 5%;
+  margin-left: 110px;
+}
+.middle-bottom .heading {
+  font-size: 48px;
+  font-family: regular;
+  margin-bottom: 20px;
+}
+.middle-bottom .details {
+  font-size: 18px;
+  font-family: regular;
+  color: #9194a2;
+  line-height: 1.5;
+}
+.btn-more-info {
+  background-color: #5267df;
+  padding: 15px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  color: #fff;
+  font-family: regular;
+}
+.btn-more-info:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: rgba(36, 48, 69, 100%);
+}
+/*Downloading apps style*/
+.downloading {
+  margin-top: 15%;
+}
+.downloading .title {
+  text-align: center;
+}
+.downloading .head {
+  font-size: 32;
+  font-family: regular;
+  color: #242a45;
+  margin-bottom: 15px;
+}
+.downloading .details {
+  font-size: 18px;
+  font-family: regular;
+  color: #9194a2;
+}
+.apps {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  margin-bottom: 30%;
+}
+.browser {
+  background-color: #ffffff;
+  border-color: #707070;
+  text-align: center;
+  padding: 60px 40px;
+  border-radius: 15px;
+}
+.app-pic {
+  margin-top: 10px;
+}
+.app-pic1 {
+  width: 120px;
+  height: 120px;
+}
+.apps .heading {
+  font-size: 20px;
+  color: #242a45;
+  font-family: regular;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.apps .version {
+  font-size: 15px;
+  font-family: regular;
+  color: #9194a2;
+  border-bottom: dotted;
+  padding-bottom: 30px;
+}
+.apps .downloadAdd-btn {
+  background-color: #5267df;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-top: 90px;
+}
+.apps .downloadAdd-btn:hover {
+  background-color: #fff;
+  color: #242a45;
+  border-color: #5267df;
+  cursor: pointer;
+}
+.browser:hover {
+  background-color: #5267df;
+  border-color: none;
+  color: #fff;
+}
+/*footer*/
+.footer {
+  background-color: #242a45;
+  color: #fff;
+  font-size: 20px;
+  font-family: regular;
+  text-align: center;
+  padding: 15px;
+}
